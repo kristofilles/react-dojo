@@ -57,8 +57,6 @@ const solve = ({table, row, col}: {table: SudokuValues; row: number; col:number}
         if (checkNewValue({table, row, col, num})) {
 
             table[row][col] = num;
-            //printTable(table); // TODO remove
-            console.log("table");
 
             // move on to next cell
             if (solve({table, row, col: col + 1})) {
