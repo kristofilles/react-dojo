@@ -1,5 +1,5 @@
 import './App.css';
-import SudokuHeader from './Layout/SudokuHeader';
+import SudokuHeader from './layout/SudokuHeader';
 import SudokuView from './views/SudokuView';
 
 function App() {
